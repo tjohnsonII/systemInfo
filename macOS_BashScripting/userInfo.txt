@@ -1,0 +1,26 @@
+[H[2J[1m[34mStarting Info Script(B[m
+
+COMMAND        FLAG                                   OUTPUT  DEFINITION
+
+================================================================================
+whoami          n/a                                     tim2  who is currently logged in
+
+pwd             n/a                                        /  current working directory
+
+echo             $0 /Users/tim2/Documents/systemInfo/userInfoScript.sh  current script location
+
+Command 	 who -a
+[4mAll logged in users(B[m
+                 system boot  Jan 25 14:51 
+tim2             console      Jan 25 14:51 
+tim2             ttys000      Jan 30 23:57 
+tim2             ttys001      Jan 30 14:52 	term=0 exit=0
+tim2             ttys003      Jan 28 21:39 	term=0 exit=0
+tim2             ttys005      Jan 25 22:45 	term=0 exit=0
+   .       run-level 3
+[32mNo Intruders(B[m
+
+
+
+
+[1m[31mEnd Of Script(B[m
