@@ -1,0 +1,187 @@
+[H[2J[1m[34mStarting Disk Info Script(B[m
+[32mDisk Info(B[m
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         250.7 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +250.7 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD - Data     216.0 GB   disk1s1
+   2:                APFS Volume Macintosh HD            8.9 GB     disk1s3
+   3:              APFS Snapshot com.apple.os.update-... 8.9 GB     disk1s3s1
+   4:                APFS Volume Preboot                 1.8 GB     disk1s4
+   5:                APFS Volume Recovery                1.1 GB     disk1s5
+   6:                APFS Volume VM                      5.4 GB     disk1s6
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +195.4 MB   disk2
+   1:                  Apple_HFS OpenVPN Connect         195.4 MB   disk2s1
+
+Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on
+/dev/disk1s3s1  233Gi  8.3Gi   16Gi    34%  348574  170011120    0%   /
+devfs           337Ki  337Ki    0Bi   100%    1166          0  100%   /dev
+/dev/disk1s4    233Gi  1.7Gi   16Gi    10%    1718  170011120    0%   /System/Volumes/Preboot
+/dev/disk1s6    233Gi  5.0Gi   16Gi    24%       5  170011120    0%   /System/Volumes/VM
+/dev/disk1s7    233Gi  4.0Mi   16Gi     1%      17  170011120    0%   /System/Volumes/Update
+/dev/disk1s1    233Gi  201Gi   16Gi    93% 1900778  170011120    1%   /System/Volumes/Data
+map auto_home     0Bi    0Bi    0Bi   100%       0          0  100%   /System/Volumes/Data/home
+/dev/disk2s1    186Mi  183Mi  3.1Mi    99%       7 4294967272    0%   /Volumes/OpenVPN Connect
+Storage:
+
+    Macintosh HD - Data:
+
+      Free: 17.41 GB (17,409,114,112 bytes)
+      Capacity: 250.69 GB (250,685,575,168 bytes)
+      Mount Point: /System/Volumes/Data
+      File System: APFS
+      Writable: Yes
+      Ignore Ownership: No
+      BSD Name: disk1s1
+      Volume UUID: 5F6FA420-0601-438C-9781-C3A600C11D19
+      Physical Drive:
+          Device Name: APPLE SSD AP0256M
+          Media Name: AppleAPFSMedia
+          Medium Type: SSD
+          Protocol: PCI-Express
+          Internal: Yes
+          Partition Map Type: Unknown
+          S.M.A.R.T. Status: Verified
+
+    Macintosh HD:
+
+      Free: 17.41 GB (17,409,114,112 bytes)
+      Capacity: 250.69 GB (250,685,575,168 bytes)
+      Mount Point: /
+      File System: APFS
+      Writable: No
+      Ignore Ownership: No
+      BSD Name: disk1s3s1
+      Volume UUID: 72BB4AAD-2C2B-4A47-9318-B41DCE715DB0
+      Physical Drive:
+          Device Name: APPLE SSD AP0256M
+          Media Name: AppleAPFSMedia
+          Medium Type: SSD
+          Protocol: PCI-Express
+          Internal: Yes
+          Partition Map Type: Unknown
+          S.M.A.R.T. Status: Verified
+
+    OpenVPN Connect:
+
+      Free: 3.3 MB (3,276,800 bytes)
+      Capacity: 195.4 MB (195,395,584 bytes)
+      Mount Point: /Volumes/OpenVPN Connect
+      File System: HFS+
+      Writable: No
+      Ignore Ownership: Yes
+      BSD Name: disk2s1
+      Volume UUID: EB7C7197-E7C3-350C-9E6F-F1A850B89A88
+      Physical Drive:
+          Device Name: Disk Image
+          Media Name: Apple Disk Image Media
+          Protocol: Disk Image
+          Internal: No
+          Partition Map Type: GPT (GUID Partition Table)
+
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCITR
+      PCI Device ID: 0x15ec 
+      PCI Revision ID: 0x0006 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x00 
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleUSBXHCITR
+      PCI Device ID: 0x15ec 
+      PCI Revision ID: 0x0006 
+      PCI Vendor ID: 0x8086 
+      Bus Number: 0x01 
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleIntelCNLUSBXHCI
+      PCI Device ID: 0x9ded 
+      PCI Revision ID: 0x0030 
+      PCI Vendor ID: 0x8086 
+
+    Apple T2 Bus:
+
+      Host Controller Driver: AppleUSBVHCIBCE
+
+        Touch Bar Backlight:
+
+          Product ID: 0x8102
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 0000000000000000
+          Manufacturer: Apple Inc.
+          Location ID: 0x80700000
+
+        Touch Bar Display:
+
+          Product ID: 0x8302
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 0000000000000000
+          Manufacturer: Apple Inc.
+          Location ID: 0x80600000
+
+        Apple Internal Keyboard / Trackpad:
+
+          Product ID: 0x027b
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 9.27
+          Serial Number: FM7048300T3J3VYBZ+RRZ
+          Manufacturer: Apple Inc.
+          Location ID: 0x80500000
+
+        Headset:
+
+          Product ID: 0x8103
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.04
+          Serial Number: 000000000000
+          Manufacturer: Apple
+          Location ID: 0x80400000
+
+        Ambient Light Sensor:
+
+          Product ID: 0x8262
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 000000000000
+          Manufacturer: Apple Inc.
+          Location ID: 0x80300000
+
+        FaceTime HD Camera (Built-in):
+
+          Product ID: 0x8514
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: CC28452QV2BJ3Y32Z
+          Manufacturer: Apple Inc.
+          Location ID: 0x80200000
+
+        Apple T2 Controller:
+
+          Product ID: 0x8233
+          Vendor ID: 0x05ac (Apple Inc.)
+          Version: 2.01
+          Serial Number: 0000000000000000
+          Manufacturer: Apple Inc.
+          Location ID: 0x80100000
+
+
+
+
+
+[1m[31mEnd Of Script(B[m
